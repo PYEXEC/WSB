@@ -1,6 +1,7 @@
 def test_list_operation(test_list: list):
     try:
-        list_length = len(test_list)
+        # list_length = len(test_list)
+        list_length = test_list.length
         print(f"Długość listy wynosi: {list_length}")
     except AttributeError:
         print("Error: Lista nie ma takiego atrybutu jak długość")
