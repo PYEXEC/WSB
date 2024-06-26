@@ -1,5 +1,4 @@
 import asyncio
-import time
 
 
 async def time_consuming_task(duration):
